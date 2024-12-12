@@ -3,6 +3,7 @@ from datetime import datetime
 from gtts import gTTS
 from io import BytesIO
 from PIL import Image
+import requests
 
 # Set the page configuration
 st.set_page_config(
