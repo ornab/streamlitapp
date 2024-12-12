@@ -27,7 +27,7 @@ days_left = (christmas - today).days
 st.subheader(f"🌟 Only {days_left} days left until Christmas! 🌟")
 
 # Display a Christmas tree image
-image_url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Christmas_tree.svg/2048px-Christmas_tree.svg.png"
+image_url = "https://www.istockphoto.com/de/foto/hell-geschm%C3%BCckter-weihnachtsbaum-gm1190435223-337472944"
 response = requests.get(image_url, stream=True)
 
 # Check if the response is an image
